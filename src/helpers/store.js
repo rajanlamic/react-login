@@ -10,14 +10,14 @@ const composeEnhancers =
         })
       : "";
  export const store = createStore(
-    ,
+    rootReducer,
     /* preloadedState, */ composeEnhancers(
       applyMiddleware(thunk, promiseMiddleware())
       // other store enhancers if any
     )
   );
   
-export const store = createStore(
-    rootReducer,
-    applyMiddleware(thunkMiddleware)
-);
+// export const store = createStore(
+//     rootReducer,
+//     applyMiddleware(thunkMiddleware)
+// );
