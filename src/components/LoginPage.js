@@ -23,6 +23,7 @@ class LoginPage extends Component {
     }
 
     handleChange(e) {
+
     }
 
     handleSubmit(e) {
