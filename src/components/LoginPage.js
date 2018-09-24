@@ -30,7 +30,7 @@ class LoginPage extends Component {
     }
 
     handleSubmit(e) {
-        userActions.login(this.state.username, this.state.password)
+        userActions.login(this.state.username, this.state.password);
         
     }
 
