@@ -3,6 +3,7 @@ import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
+
 import { userActions } from '../actions';
 
 class LoginPage extends Component {
@@ -49,7 +50,7 @@ class LoginPage extends Component {
                         }
                     </div>
                     <div className="form-group">
-                        <button className="btn btn-primary" onClick={this.}>Login</button>
+                        <button className="btn btn-primary" onClick={this.handleSubmit}>Login</button>
                     </div>
                 </form>
             </div>
