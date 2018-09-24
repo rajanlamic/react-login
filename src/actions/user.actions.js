@@ -12,7 +12,7 @@ export const userActions = {
 function login(username, password) {
     // return the promise using fetch which adds to localstorage on resolve
     return new Promise((resolve, reject) = > {
-        setTime
+        setTimeout
     })
 
     function request(user) { return { type: userConstants.LOGIN_REQUEST, user } }
