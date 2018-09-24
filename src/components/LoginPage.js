@@ -2,8 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import axios from "axios";
-
+import axios from "axios"
 
 import { userActions } from '../actions';
 
