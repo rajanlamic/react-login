@@ -37,7 +37,7 @@ class LoginPage extends Component {
                 <form name="form">
                     <div className={'form-group' + (submitted && !username ? ' has-error' : '')}>
                         <label htmlFor="username">Username</label>
-                        <input type="text" className="form-control username" name="username" />
+                        <input type="text" className="form-control username" name="username"  />
                         {submitted && !username &&
                             <div className="help-block">Username is required</div>
                         }
