@@ -26,7 +26,7 @@ class LoginPage extends Component {
         const userName = e.currentTarget.value;
         alert(userName);
         this.setState({
-          username: userName
+          : userName
         })
     }
 
