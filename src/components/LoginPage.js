@@ -3,7 +3,7 @@ import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import axios from "axios";
-import 
+import userActions
 
 import { userActions } from '../actions';
 
