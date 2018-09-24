@@ -23,7 +23,8 @@ class LoginPage extends Component {
     }
 
     handleChange(e) {
-        let userName = e.currentTarget.val
+        let userName = e.currentTarget.value;
+        
     }
 
     handleSubmit(e) {
