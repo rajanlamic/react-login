@@ -34,6 +34,7 @@ class LoginPage extends Component {
        aa.then((data) => {
            console.log('data', data)
        })
+       e.preventDefault();
     }
 
     render() {
