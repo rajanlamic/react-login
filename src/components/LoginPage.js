@@ -23,7 +23,7 @@ class LoginPage extends Component {
     }
 
     handleChange(e) {
-        let userName 
+        let userName = e.tar
     }
 
     handleSubmit(e) {
