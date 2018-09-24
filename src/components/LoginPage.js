@@ -23,7 +23,7 @@ class LoginPage extends Component {
 
     handleChange(e, target) {
         const targetValue = e.currentTarget.value;
-        alert(targetValue);
+        // alert(targetValue);
         this.setState({
           [target]: targetValue
         })
