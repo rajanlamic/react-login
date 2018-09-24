@@ -49,7 +49,7 @@ class LoginPage extends Component {
                         }
                     </div>
                     <div className="form-group">
-                        <button className="btn btn-primary" onCl>Login</button>
+                        <button className="btn btn-primary" onClick={>Login</button>
                     </div>
                 </form>
             </div>
