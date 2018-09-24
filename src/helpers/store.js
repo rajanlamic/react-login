@@ -9,8 +9,6 @@ const composeEnhancers =
           // Specify extension’s options like name, actionsBlacklist, actionsCreators, serialize...
         })
       : "";
-
-
  export const store = createStore(
     reducers,
     /* preloadedState, */ composeEnhancers(
