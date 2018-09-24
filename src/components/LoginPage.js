@@ -23,7 +23,7 @@ class LoginPage extends Component {
     }
 
     handleChange(e) {
-        let u
+        let userName 
     }
 
     handleSubmit(e) {
