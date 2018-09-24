@@ -22,7 +22,7 @@ class LoginPage extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChange(e) {
+    (e) {
     }
 
     handleSubmit(e) {
