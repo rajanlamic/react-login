@@ -11,7 +11,7 @@ export const userActions = {
 
 function login(username, password) {
     // return the promise using fetch which adds to localstorage on resolve
-    return new Promise((resolve, reject) = > {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve('aa')
         }, 1000)
