@@ -24,7 +24,7 @@ class LoginPage extends Component {
 
     handleChange(e) {
         let userName = e.currentTarget.value;
-        this.setS
+        this.setState
     }
 
     handleSubmit(e) {
