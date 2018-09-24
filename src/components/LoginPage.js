@@ -32,7 +32,7 @@ class LoginPage extends Component {
     handleSubmit(e) {
        const aa = userActions.login(this.state.username, this.state.password);
        aa.then((data) => {
-           console.log(data)
+           console.log(data, data)
        })
     }
 
