@@ -31,8 +31,8 @@ class LoginPage extends Component {
 
     handleSubmit(e) {
        const aa = userActions.login(this.state.username, this.state.password);
-       aa.then((d) => {
-           
+       aa.then((data) => {
+           c
        })
     }
 
