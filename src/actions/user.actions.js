@@ -14,7 +14,7 @@ function login(username, password) {
     return new Promise((resolve, reject) = > {
         setTimeout(() => {
             
-        })
+        }, 1000)
     })
 
     function request(user) { return { type: userConstants.LOGIN_REQUEST, user } }
