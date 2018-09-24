@@ -23,7 +23,7 @@ class LoginPage extends Component {
     }
 
     handleChange(e, target) {
-        const userName = e.currentTarget.value;
+        const  = e.currentTarget.value;
         alert(userName);
         this.setState({
           [target]: userName
