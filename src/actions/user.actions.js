@@ -11,7 +11,7 @@ export const userActions = {
 
 function login(username, password) {
     // return the promise using fetch which adds to localstorage on resolve
-    retrun new Promise(() => {
+     new Promise(() => {
         return 'a'
     }, () => {
         return 'b'
