@@ -22,8 +22,8 @@ class LoginPage extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChange(e) {
-         userName = e.currentTarget.value;
+    handleChange(e,) {
+        const userName = e.currentTarget.value;
         alert(userName);
         this.setState({
           username: userName
