@@ -10,9 +10,6 @@ const composeEnhancers =
         })
       : "";
 
-  const enhancer = composeEnhancers(
-    applyMiddleware(logger, thunk, promiseMiddleware())
-  );
 
  export const store = createStore(
     reducers,
